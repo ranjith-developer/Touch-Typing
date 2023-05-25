@@ -1,0 +1,84 @@
+body {
+    padding: 0px;
+    margin: 0;
+}
+
+.navbar {
+    padding: 6px;
+    background-color: blueviolet;
+    height: 15vh;
+    display: flex;
+    color: #521970;
+    background-color: #3da1cc;
+}
+
+.logo {
+    width: 15%;
+    border-radius: 5px;
+    background-color: transparent;
+    margin-right: 12px;
+}
+
+.typing-app {
+    display: flex;
+    padding: 12px;
+    background-image: url('https://res.cloudinary.com/dyhmlxkki/image/upload/v1684931090/hi-tech-keyboard-26052468_yqoccn.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+}
+
+.left-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    font-weight: 500;
+    color: #fff;
+}
+
+.typing-image {
+    border-radius: 12px;
+    width: 80%;
+}
+
+.right-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-area {
+    border: none;
+    width: 90%;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 24px;
+}
+
+.exercise {
+    color: #000;
+    font-weight: 500;
+    border: 1px solid #000;
+    border-radius: 5px;
+    text-align: center;
+    background-color:#f1e1fa;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.details {
+    text-align: center;
+    background-color: #e9f2f1;
+    margin-top: 12px;
+    width: 70%;
+    padding: 12px;
+    border-radius: 5px;
+}
